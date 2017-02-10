@@ -1,0 +1,30 @@
+size(300, 300);
+smooth();
+fill(255);
+beginShape();
+fill(0, 50, 255);
+vertex(30, 30);
+vertex(270, 30);
+vertex(270, 270);
+vertex(30, 270);
+endShape();
+
+beginShape();
+fill(255);
+vertex(100, 60);
+vertex(200, 60);
+vertex(200, 160);
+vertex(130, 160);
+vertex(130, 250);
+vertex(100, 250);
+vertex(100, 60);
+endShape();
+
+beginShape();
+fill(0, 50, 255);
+vertex(130, 80);
+vertex(170, 80);
+vertex(170, 140);
+vertex(130, 140);
+vertex(130, 80);
+endShape();
